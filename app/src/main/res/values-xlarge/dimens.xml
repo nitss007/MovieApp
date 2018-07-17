@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="login_activity_horizontal_margin">20dp</dimen>
+    <dimen name="login_activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_size8">12sp</dimen>
+    <dimen name="text_size10">15sp</dimen>
+    <dimen name="text_size12">18sp</dimen>
+    <dimen name="text_size15">21.5sp</dimen>
+    <dimen name="text_size15new">22.5sp</dimen>
+    <dimen name="text_size18">27sp</dimen>
+    <dimen name="text_size20">30sp</dimen>
+    <dimen name="text_size25">37.5sp</dimen>
+    <dimen name="text_size30">45sp</dimen>
+
+    <dimen name="margin0.2">0.3dp</dimen>
+    <dimen name="margin0.5">0.75dp</dimen>
+    <dimen name="margin1">1.5dp</dimen>
+    <dimen name="margin3">4.5dp</dimen>
+    <dimen name="margin5">7.5dp</dimen>
+    <dimen name="margin8">12dp</dimen>
+    <dimen name="margin15">22.5dp</dimen>
+    <dimen name="margin18">27dp</dimen>
+    <dimen name="margin10">15dp</dimen>
+    <dimen name="margin12">18dp</dimen>
+    <dimen name="margin20">30dp</dimen>
+    <dimen name="margin25">37.5dp</dimen>
+    <dimen name="margin30">45dp</dimen>
+    <dimen name="margin40">60dp</dimen>
+    <dimen name="margin45">67.5dp</dimen>
+    <dimen name="margin50">75dp</dimen>
+    <dimen name="margin60">90dp</dimen>
+    <dimen name="margin61">100dp</dimen>
+    <dimen name="margin65">97.5dp</dimen>
+    <dimen name="margin35">52.5dp</dimen>
+    <dimen name="margin100">150dp</dimen>
+    <dimen name="margin110">165dp</dimen>
+    <dimen name="margin120">180dp</dimen>
+    <dimen name="margin130">195dp</dimen>
+    <dimen name="margin140">210dp</dimen>
+    <dimen name="margin80">120dp</dimen>
+    <dimen name="margin90">135dp</dimen>
+    <dimen name="margin150">225dp</dimen>
+    <dimen name="margin160">240dp</dimen>
+    <dimen name="margin180">270dp</dimen>
+    <dimen name="margin200">300dp</dimen>
+    <dimen name="margin240">360dp</dimen>
+    <dimen name="margin300">350dp</dimen>
+    <dimen name="margin400">600dp</dimen>
+
+</resources>

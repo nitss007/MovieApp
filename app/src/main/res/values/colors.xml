@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#343434</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTransparent">#80000000</color>
+    <color name="colorWhiteTransparent">#80FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDarkRed">#ee1933</color>
+    <color name="colorDarkPink">#DB0030</color>
+    <color name="colorGreen">#ACF07C</color>
+    <color name="colorYellow">#FEFF7E</color>
+    <color name="colorPink">#FDA9CB</color>
+    <color name="colorBlue">#9BCFFE</color>
+    <color name="colorsavegreen">#0c8032</color>
+    <color name="darkGreen">#16a085</color>
+    <color name="darkblack">#2c3e50</color>
+    <color name="colorGray">#949494</color>
+    <color name="colorIndicator">#922A38</color>
+    <color name="textcolor_gray">#717171</color>
+    <color name="white2">#d3d2d5</color>
+    <color name="grayios">#777777</color>
+    <color name="white">#fff</color>
+    <color name="gray">#DBDBDB</color>
+    <color name="black">#000000</color>
+
+
+    <color name="ProfileRed">#ff2d73</color>
+    <color name="None">#bfcfcfcf</color>
+    <color name="profileTextGray">#FF606060</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="java_sign_up">Sign Up</string>
+    <string name="java_sign_in">Sign In</string>
+    <string name="java_forgot_password">Forgot Password</string>
+    <string name="java_change_password">Change Password</string>
+    <string name="java_do_you_want_to_logout">Do you want to Logout?</string>
+    <string name="java_mark_as_unsafe_place">Mark as unsafe place?</string>
+    <string name="java_exit_from_group">After exit from the group, you will not be the participant of this group</string>
+
+
+    <!-- Toast-->
+
+    <string name="sos_toast_updated_successfully">SOS status updated successfully</string>
+    <string name="toast_updated_successfully">Updated successfully</string>
+    <string name="toast_status_updated_successfully">Status updated successfully</string>
+    <string name="toast_your_feedback_sent_successfully">Your feedback sent successfully</string>
+    <string name="toast_press_again_to_exit">Press again to exit</string>
+    <string name="toast_invalid_email_id">Invalid Email Id</string>
+    <string name="toast_invalid_user_type">Invalid user type</string>
+    <string name="toast_problem_in_processing">Problem in Processing</string>
+    <string name="toast_problem_in_processing_please">Problem in processing, please try again.</string>
+    <string name="toast_problem_in_sending_location.">Problem in sending location</string>
+    <string name="toast_could_not_refresh_info.">Could not refresh information. please try again</string>
+    <string name="toast_info_refreshed_successfully">Please check your email for the Trip Brief</string>
+    <string name="toast_location_accepted_security">If you have a corporate account, your location can be tracked or geofenced by the administrator.</string>
+    <string name="toast_no_response_from_server">No response from server</string>
+    <string name="toast_error_from_server">Error from server</string>
+    <string name="toast_geo_fence_location_not_found">Geofence location not found</string>
+    <string name="toast_select_user_type">Select User Type</string>
+    <string name="toast_account_already_exists">Account already exists</string>
+    <string name="toast_account_does_not_exist">Account does not exist</string>
+    <string name="toast_logout_successful">Logout successful</string>
+    <string name="toast_settings_updated_successfully">Settings updated successfully</string>
+    <string name="gps_settings">GPS Settings</string>
+    <string name="toast_gps_not_enabled">GPS is not enabled. Turn on your GPS?</string>
+    <string name="toast_gps_not_enabled_and_try_again">GPS is not enabled. Please turn on your GPS and try again.</string>
+    <string name="toast_location_service_off">Location is not enabled. Please go to settings and turn on your Location then try again</string>
+    <!--<string name="toast_please_wait">Please wait...</string>-->
+    <string name="toast_no_record_available">No record available</string>
+    <string name="toast_google_play_services_not_available">Google play services not available</string>
+    <string name="toast_no_internet">You don\'t have an Internet connection at the moment. Please try again when connected</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+    <string name="toast_no_data_available">No data available</string>
+    <string name="toast_no_contact_available">No contact available</string>
+    <string name="toast_no_chat_available">No chat available</string>
+    <string name="toast_list_already_visible">List already visible</string>
+    <string name="toast_no_trip_available">No Trip available</string>
+    <string name="toast_no_employee_available">No Employee available</string>
+    <string name="toast_facebook_password_cant_change">Facebook user can not change password</string>
+
+</resources>

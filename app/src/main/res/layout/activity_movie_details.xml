@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin50"
+        android:background="@color/black"
+        android:id="@+id/layoutHeader"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/layBack"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/layout_pressed_light"
+                android:gravity="center_vertical"
+                android:onClick="onLayBack"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin15"
+                    android:layout_marginRight="@dimen/margin15"
+                    android:src="@drawable/ic_arrow_back_white_24dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/margin3"
+                android:shadowColor="@color/black"
+                android:shadowDx="2"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:text="Movie Details"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size18" />
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.v7.widget.CardView
+        android:layout_margin="@dimen/margin5"
+        app:cardElevation="@dimen/margin5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/cover_poster"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="@dimen/margin200" />
+        <ImageView
+            android:id="@+id/poster_path"
+            android:layout_width="@dimen/margin120"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            android:layout_height="@dimen/margin120" />
+         </RelativeLayout>
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/margin1"
+                android:padding="@dimen/margin3"
+                android:layout_height="wrap_content">
+            <TextView
+                android:text="Description"
+                android:textSize="@dimen/margin15"
+                android:textColor="@color/black"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                <TextView
+                android:id="@+id/tv_Description"
+                android:text="Description"
+                android:layout_weight="0.8"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/margin3"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Language"
+                android:textSize="@dimen/margin15"
+                android:textColor="@color/black"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_Language"
+                android:text="Language"
+                android:layout_weight="0.8"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/margin3"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Popularity"
+                android:textSize="@dimen/margin15"
+                android:textColor="@color/black"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_Popularity"
+                android:text="Popularity"
+                android:layout_weight="0.8"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/margin3"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Release date"
+                android:textSize="@dimen/margin15"
+                android:textColor="@color/black"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+             <TextView
+                android:id="@+id/tv_Release_date"
+                android:text="Release date"
+                 android:layout_weight="0.8"
+                 android:singleLine="true"
+                 android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin1"
+            android:padding="@dimen/margin3"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Revenue"
+                android:textSize="@dimen/margin15"
+                android:textColor="@color/black"
+                android:layout_weight="1.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                <TextView
+                android:id="@+id/tv_Revenue"
+                android:text="Revenue"
+                    android:singleLine="true"
+                    android:maxLines="1"
+                    android:layout_weight="0.8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
