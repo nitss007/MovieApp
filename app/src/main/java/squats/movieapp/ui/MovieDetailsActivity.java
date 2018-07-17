@@ -51,12 +51,15 @@ public class MovieDetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_details);
-        ButterKnife.inject(this);
-        init();
-        int movieId = getIntent().getIntExtra("movieId", 0);
-        getMovieDetails(String.valueOf(movieId));
+        try {
+            ButterKnife.inject(this);
+            init();
+            int movieId = getIntent().getIntExtra("movieId", 0);
+            getMovieDetails(String.valueOf(movieId));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-
     private void getMovieDetails(String movieId) {
         dialog.setContentView (R.layout.custom_progress_dialog_trans);
         dialog.getWindow ().setBackgroundDrawableResource (android.R.color.transparent);

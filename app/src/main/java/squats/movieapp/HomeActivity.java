@@ -41,9 +41,14 @@ public class HomeActivity extends AppCompatActivity implements MovieHorizontalAd
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        ButterKnife.inject(this);
-        init();
-        getMovieListResponse(WebServiceAPI.apiKey);
+        try {
+            ButterKnife.inject(this);
+            init();
+            getMovieListResponse(WebServiceAPI.apiKey);
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 
     private void getMovieListResponse(String apiKey) {
